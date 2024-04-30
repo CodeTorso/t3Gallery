@@ -7,8 +7,8 @@
 - [x] improve build process
 - [x] database (vercel db)
 - [x] attach db to ui
-- [ ] add auth
-- [ ] add img upload (w/ clerk)
+- [X] add auth (w/ clerk)
+- [ ] add img upload 
 - [ ] error management (w/ Sentry)
 - [ ] routing/image page (parallel route)
 - [ ]  delete button (actions)

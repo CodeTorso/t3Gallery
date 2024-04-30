@@ -2,8 +2,8 @@
 
 #TodoList
 
-- [ ] Deploy
-- [ ] basic ui
+- [X] Deploy
+- [X] basic ui
 - [ ] database (vercel db)
 - [ ] attach db to ui
 - [ ] add auth

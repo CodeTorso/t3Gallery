@@ -13,6 +13,16 @@ export const metadata = {
   icons: [{ rel: "icon", url: "/favicon.ico" }],
 };
 
+function Navbar(){
+  return (
+    <div className="flex justify-between text-xl py-2 px-4 bg-slate-900">
+      <h1>Gallery</h1>
+      <h1>Sign In</h1>
+    </div>
+
+  )
+}
+
 export default function RootLayout({
   children,
 }: {
@@ -20,7 +30,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`font-sans ${inter.variable}`}>{children}</body>
+      <body className={`font-sans ${inter.variable}`}>
+        < Navbar />
+        {children}
+      </body>
     </html>
   );
 }

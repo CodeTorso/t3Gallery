@@ -4,6 +4,7 @@
 
 - [X] Deploy
 - [X] basic ui
+- [x] improve build process
 - [ ] database (vercel db)
 - [ ] attach db to ui
 - [ ] add auth

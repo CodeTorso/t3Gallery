@@ -5,8 +5,8 @@
 - [X] Deploy
 - [X] basic ui
 - [x] improve build process
-- [ ] database (vercel db)
-- [ ] attach db to ui
+- [x] database (vercel db)
+- [x] attach db to ui
 - [ ] add auth
 - [ ] add img upload (w/ clerk)
 - [ ] error management (w/ Sentry)
